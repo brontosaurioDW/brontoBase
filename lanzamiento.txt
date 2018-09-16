@@ -1,9 +1,25 @@
 Comandos para arrancar el proyecto:
 
-- npm install (Trae todas las dependencias)
+- npm install -g (Trae todas las dependencias)
+- npm install -g browserify
+- npm install gulp-cli -g
 
-- browserify assets/js/vendor.js --o dist/vendor.js (Compila los js de vendors)
+- browserify assets/js/vendor.js --o dist/vendor.js (Compila los js de vendors) 
 
 - gulp vendorCss (Compila los css de vendors)
 
 - gulp watch (Te mira los .scss y los compila en style.css)
+
+/*/
+
+Cuando se instala una nueva dependencia hay que agregarla.
+
+Si es JS se agrega en:
+en assets/js/vendorjs
+
+Si es CSS se agrega en:
+en assets/cs/vendorcss
+
+( •_•)
+( •_•)>⌐■-■
+(⌐■_■)
