@@ -26,6 +26,8 @@
   },
   "devDependencies": {
     "browser-sync": "^2.24.7",
-    "gulp-concat": "^2.6.1"
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1"
   }
 }
