@@ -9,3 +9,17 @@ Comandos para arrancar el proyecto:
 - gulp vendorCss (Compila los css de vendors)
 
 - gulp watch (Te mira los .scss y los compila en style.css)
+
+/*/
+
+Cuando se instala una nueva dependencia hay que agregarla.
+
+Si es JS se agrega en:
+en assets/js/vendorjs
+
+Si es CSS se agrega en:
+en assets/cs/vendorcss
+
+( •_•)
+( •_•)>⌐■-■
+(⌐■_■)
